@@ -19,8 +19,8 @@ module "s3-static-website" {
   website_domain_name = "muslimentrepreneurs.space"
 
   create_route53_hosted_zone = false
-  route53_hosted_zone_id = "<zone id>"
+  route53_hosted_zone_id = "Z04629671ENZ8H0W1A72L"
 
   create_acm_certificate     = false
-  acm_certificate_arn_to_use = "<certificate arn>"
+  acm_certificate_arn_to_use = "arn:aws:acm:us-east-1:742270938451:certificate/f825ed1f-5d84-4cb0-9875-dbb7cee04486"
 }
